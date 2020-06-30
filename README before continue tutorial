@@ -1,0 +1,18 @@
+springboot
+1. nyalain mongodbnya dulu di docker (ga tau kenapa harus melakukan ini dulu, kalo engga akan error)
+
+--------Docker---------
+POSTGRES
+FORMAT : docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+SETTINGan gw : docker run --name postgres-spring -e POSTGRES_PASSWORD=654321qaz -d -p 5432:5432 postgres:alpine
+
+--untuk melihat semua images
+docker ps
+
+--untuk melihat port salah satu images
+docker port postgres-spring
+
+--kembali ke IntlJ--
+hapus file application.property pada folder src/main/resource
+lalu buat file application.yml
+
