@@ -16,3 +16,24 @@ docker port postgres-spring
 hapus file application.property pada folder src/main/resource
 lalu buat file application.yml
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--tambahan
+git remote add origin https://github.com/chlismuchlis/aulisbackend.git
+git push -u origin master
+git commit -a -m "Done with the demo app"
