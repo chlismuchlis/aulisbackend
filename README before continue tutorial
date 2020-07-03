@@ -16,6 +16,17 @@ docker port postgres-spring
 hapus file application.property pada folder src/main/resource
 lalu buat file application.yml
 
+--Masuk kedalam layar cmd postgres--
+docker exec -it 222797d92f57 bin/bash
+
+psql -U <USERNAME POSTGRES>
+psql -U postgres
+
+--Untuk melihat list table
+\l
+
+--membuat database
+CREATE DATABASE demodb;  
 
 
 
